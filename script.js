@@ -2,7 +2,7 @@ document.getElementById("orb").addEventListener("click",function(){
   changeToNight()  
 });
 
-function changeToNight(){
+function changeToNight(){   
     if(document.getElementById("orb").className == "sun"){
         //change to moon
     document.getElementById("sky").className="night";
